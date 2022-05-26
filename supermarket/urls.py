@@ -16,8 +16,7 @@ Including another URLconf
 
 
 from django.urls import path
-from shop.views import index,shop
+from shop.views import shop
 urlpatterns = [
-    path("",index),
     path("shop",shop),
 ]
